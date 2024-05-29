@@ -1,0 +1,25 @@
+.message_box{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.message_left {
+    justify-content: flex-start;
+    background-color: #f1f0f0;
+}
+
+.message_right {
+    justify-content: flex-end;
+    background-color: #d1e7dd;
+    margin-left: auto;
+}
+
+.message_content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
